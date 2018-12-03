@@ -1,0 +1,9 @@
+
+
+def transformInput(x):
+      if np.dot(vocab.parse('LEFT').v, x) >= 0.5:
+          return 10
+      elif np.dot(vocab.parse('RIGHT').v, x) >= 0.5:
+          return -10
+      else:
+          return 0
