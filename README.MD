@@ -1,1 +1,1 @@
-Example project from NENGO.AI summer school.
+Code to reproduce thalamo-fronto decision making model (Nengo summer school project)
